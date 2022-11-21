@@ -12,16 +12,16 @@ body {
     max-width: 500px;
 }
 
-h1 {color: rgb(205, 149, 76);
+h1 {color: rgb(104, 76, 40);
     font-family: 'Roboto', sans-serif;
     text-align: center;}
 
-h2 {color: rgb(205, 149, 76);
+h2 {color: rgb(104, 76, 40);
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     margin-top: 50px;}
 
-h3 {color: rgb(205, 149, 76);
+h3 {color: rgb(104, 76, 40);
     font-family: 'Roboto', sans-serif;}
 
 p  { font-family: 'Roboto', sans-serif;
