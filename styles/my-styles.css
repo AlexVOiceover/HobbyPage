@@ -2,15 +2,25 @@ h1 {color: rgb(205, 149, 76);
     font-family: 'Roboto', sans-serif;
     text-align: center;}
 
+h2 {color: rgb(205, 149, 76);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;}
+
+h3 {color: rgb(205, 149, 76);
+    font-family: 'Roboto', sans-serif;}
+
+p  { font-family: 'Roboto', sans-serif;
+    margin: 20px;}
+
 figure {
     display: inline-block;
-    border: 1px dotted gray;
-    margin: 20px; /* adjust as needed */
+    border: 1px dotted burlywood;
+    margin: 20px; /* adjust as needed */;
 }
 figure img {
     vertical-align: top;
 }
 figure figcaption {
-    border: 1px dotted brown;
+    border: 1px dotted burlywood;
     text-align: center;
 }
