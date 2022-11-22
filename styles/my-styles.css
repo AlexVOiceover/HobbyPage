@@ -43,3 +43,13 @@ figure figcaption {
     ;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  
+  button {
+    width: 200px;
+  }

@@ -1,6 +1,11 @@
 console.log("Sending a message to the console");
 
-const btn = document.querySelector("#button");
-console.log(btn.id);
+//Use querySelector to read the String "Date:"
+const fecha = document.body.querySelector("#p2");
 
-console.log("Sending a last message to the console");
+//Create new HTML element
+const para = document.createElement("p");
+
+//Append the new element to Date()
+para.innerHTML = (new Date()).toLocaleDateString('en-GB').toString();
+document.getElementById("p2").appendChild(para);
