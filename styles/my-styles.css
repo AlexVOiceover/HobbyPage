@@ -31,8 +31,7 @@ figure {
     display: inline-block;
     border: 2px solid;
     color: brown;
-    ;
-    margin: 20px; /* adjust as needed */;
+    margin: 20px;
 }
 figure img {
     vertical-align: top;
