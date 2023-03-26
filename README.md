@@ -1,7 +1,9 @@
 # HobbyPage
 This is the first project required for the Founders and Coders application.
 
-Here added a background and some links using external urls
+Here I added a background and some links using external urls.
+
+I also added a list and images.
 
 Regarding the Javascript, in order to show today's date we need:
 
