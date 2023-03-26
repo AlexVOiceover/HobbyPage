@@ -28,7 +28,6 @@ p  { font-family: 'Roboto', sans-serif;
 figure {
     display: inline-block;
     border: 2px solid;
-    border-inline: solid;
     color: brown;
     margin: 20px;
     margin-left: 10em;}
@@ -40,4 +39,3 @@ figure figcaption {
     border-top: 2px solid;
     color: brown;
     text-align: center;}
-
