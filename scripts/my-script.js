@@ -1,11 +1,13 @@
 console.log("Sending a message to the console");
 
-//Use querySelector to read the String "Date:"
-const fecha = document.body.querySelector("#p2");
+//Create new <p> element
+const todaysDate = document.createElement("p");
 
-//Create new HTML element
-const para = document.createElement("p");
+//Add today's date to "todaysDate"
+todaysDate.innerHTML = (new Date()).toLocaleDateString('en-GB').toString();
 
-//Append the new element to Date()
-para.innerHTML = (new Date()).toLocaleDateString('en-GB').toString();
-document.getElementById("p2").appendChild(para);
+//Use querySelector to get "dateHere"
+const dateLocation = document.body.querySelector("#dateHere");
+
+//Appen todaysDate to dateLocation
+dateLocation.appendChild(todaysDate);
