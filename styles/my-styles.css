@@ -28,8 +28,10 @@ p  { font-family: 'Roboto', sans-serif;
 figure {
     display: inline-block;
     border: 2px solid;
+    border-inline: solid;
     color: brown;
-    margin: 20px;}
+    margin: 20px;
+    margin-left: 10em;}
 
 figure img {
     vertical-align: top;}
