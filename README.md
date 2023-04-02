@@ -14,3 +14,5 @@ Regarding the Javascript, in order to show today's date we need:
 3. Use querySelector to get the `<p>` where we will append the date
 
 4. Appen `todaysDate` to the `<p>` element `dateLocation` 
+
+Testing WSL extension
